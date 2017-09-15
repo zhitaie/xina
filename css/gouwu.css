@@ -1,0 +1,475 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: #f7f7f7;
+}
+/*@font-face {*/
+    /*font-family: 'iconfont';  !* project id 403499 *!*/
+    /*src: url('https://at.alicdn.com/t/font_403499_kgo8uvxz5r4l5wmi.eot');*/
+    /*src: url('https://at.alicdn.com/t/font_403499_kgo8uvxz5r4l5wmi.eot?#iefix') format('embedded-opentype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_kgo8uvxz5r4l5wmi.woff') format('woff'),*/
+    /*url('https://at.alicdn.com/t/font_403499_kgo8uvxz5r4l5wmi.ttf') format('truetype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_kgo8uvxz5r4l5wmi.svg#iconfont') format('svg');*/
+/*}*/
+@font-face {
+    font-family: 'iconfont';  /* project id 403499 */
+    src: url('https://at.alicdn.com/t/font_403499_86r0nod0bjra4i.eot');
+    src: url('https://at.alicdn.com/t/font_403499_86r0nod0bjra4i.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_403499_86r0nod0bjra4i.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_403499_86r0nod0bjra4i.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_403499_86r0nod0bjra4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#b0b0b0;
+}
+header{
+    width:100%;
+    height:1rem;
+    background:#f73362;
+    width:100%;
+    height:1rem;
+    /*overflow: hidden;*/
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+header .headerlist{
+    margin-top:.21rem;
+}
+header .headerlist div:nth-child(1){
+    text-align: center;
+    width:.81rem;
+    line-height:.6rem;
+    font-size: .5rem;
+    float:left;
+    color:#fff;
+}
+header .headerlist div:nth-child(2){
+   float:left;
+}
+header .headerlist div:nth-child(2) input{
+    padding-left:.8rem;
+    display: block;
+    width:5.93rem;
+    height:.6rem;
+    border:none;
+    border-radius:.4rem;
+}
+header .headerlist div:nth-child(3){
+    width:.7rem;
+    height:.6rem;
+    /*background: yellow;*/
+    float:right;
+    font-size: .45rem;
+    color:#fff;
+    line-height: .6rem;
+}
+
+.banner{
+    width:100%;
+    height:3.85rem;
+    position: relative;
+}
+.bannerlist li img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.bannerlist{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.dianlist{
+    width:100%;
+    height:.3rem;
+    position: absolute;
+    bottom:.3rem;
+    left:0;
+    right:0;
+}
+.box1{
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom:.2rem;
+    width: 100%;
+    height:.13rem;
+    font-size: 0px;
+}
+.dian{
+    overflow: hidden;
+    text-align: center;
+}
+.dian li{
+    width:.13rem;
+    height:.13rem;
+    background:#fff;
+    border-radius: 50%;
+    margin:0 .2rem;
+    display: inline-block;
+}
+.dian li:hover{
+    background: red;
+}
+.content{
+    background: #fff;
+
+}
+.item{
+    background: #fff;
+    padding:0 .4rem;
+    margin:.3rem 0;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item li{
+    width:1.38rem;
+    height:auto;
+}
+.item li div{
+    width:1.2rem;
+    height:1.2rem;
+    background:#f81f41;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.item li a{
+    display: block;
+    font-size: .28rem;
+    color:#000;
+    text-align: center;
+    line-height:.5rem;
+}
+#content1{
+    margin-bottom:0;
+}
+.box{
+    width:100%;
+    height:3.16rem;
+    background: #fff;
+    padding-left:.24rem;
+}
+.time{
+    margin-top:.3rem;
+    padding:0 .24rem;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+
+.time li:nth-child(1){
+    float:left;
+    font-size:.36rem;
+}
+.time li:nth-child(1) a{
+    color:#E85051;
+    font-weight: bold;
+}
+.time li:nth-child(2){
+    font-size: .3rem;
+    float:right;
+    margin-top:.1rem;
+}
+.time li:nth-child(2) a{
+    color:#000;
+}
+
+.time-item{
+    margin-top:.2rem;
+    width:100%;
+    height:2.12rem; /*overflow: hidden;*/
+}
+.time-list{
+    width:15rem;
+    height:2.12rem;
+}
+.time-list li{
+    width:1.875rem;
+    height:2.12rem;
+    float:left;
+}
+.time-list li img{
+    display: block;
+    width:1.28rem;
+    height:1.28rem;
+    margin: 0 auto;
+}
+.time-list li p{
+    width:1.5rem;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    margin:.1rem 0;
+    font-size:.2rem;
+    color:#000;
+}
+.time-list li span{
+    display: block;
+    font-size:.2rem;
+    color:red;
+}
+.time-list li span del{
+    text-decoration: line-through;
+    color:#ccc;
+}
+/*精品推荐*/
+.v5-title{
+    margin-top:.2rem;
+    width:100%;
+    height:.88rem;
+    background:#fff;
+    text-align: center;
+    font-size: .35rem;
+}
+.v5-title span{
+    /*display: block;*/
+    margin-top:.01rem;
+    color:#EA5555;
+    font-weight: bold;
+}
+.v5-title p{
+    font-size: .18rem;
+}
+.v5-list{
+    padding:0 .24rem;
+    background:#fff;
+    overflow: hidden;
+    margin-top:.05rem;
+}
+.v5-list li{
+    width:50%;
+    height:2.75rem;
+    float:left;
+    /*border-right:1px solid #ccc;*/
+    /*border-bottom:1px solid #ccc;*/
+}
+.v5-list li:nth-child(1){
+    border-right:1px solid #ccc;
+}
+.v5-list li:nth-child(3){
+    border-right:1px solid #ccc;
+}
+
+
+
+
+
+.v5-list li p:nth-child(1){
+    font-size:.3rem;
+    color:#e62e2e;
+    font-weight: bold;
+}
+.v5-list li p:nth-child(2){
+    font-size:.2rem;
+    color:#EA5254;
+}
+.v5-list li img{
+    display: block;
+    float:left;
+    margin:.2rem 0.1rem;
+    width:1.45rem;
+    height:1.45rem;
+}
+.jingping .v5-list li .v5-text2{
+    color:#E45E13;
+}
+.jingping .v5-list li .v5-text3{
+    color:#D81488;
+}
+.jingping .v5-list li .v5-text4{
+    color:#90514D;
+}
+
+.jingping{
+    position: relative;
+}
+.line{
+    width:100%;
+    height:.01rem;
+    background:#ccc;
+    position: absolute;
+    top:57%;
+    left:0;
+
+
+}
+
+
+
+.news{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:0 .5rem;
+    margin-top:.3rem;
+}
+.news .news-nav{
+    display:flex;
+    justify-content: space-between;
+    font-size:.4rem;
+    line-height:.45rem;
+}
+.news .news-nav p{
+    line-height: .6rem;
+
+}
+.news .news-nav p:nth-child(1){
+    color:#F73362;
+}
+.news .news-nav .active{
+    border-bottom:.05rem solid red;
+}
+.news .news-nav p:hover{
+    border-bottom:.05rem solid red;
+
+}
+
+.new-list{
+    width:7.5rem;
+    height:auto;
+    padding:0 .15rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    overflow: hidden;
+    background: #fff;
+
+}
+
+.new-list li{
+    width:3.6rem;
+    height:auto;
+    background:#fff;
+    float:left;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+.new-list li:nth-child(3){
+    border-bottom: none;
+    /*border-right:none;*/
+}
+.new-list li:nth-child(2){
+    border-right: none;
+
+}
+.new-list li:nth-child(4){
+    border-right:none;
+}
+.new-list li img{
+    width:3.55rem;
+    height:3.6rem;
+    display: block;
+}
+.new-list li p{
+    font-size:.25rem;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width:100%;
+    /*background: red;*/
+}
+.new-list li div{
+    /*background:red;*/
+    margin:0 1rem;
+
+}
+.new-list li span{
+    /*display: block;*/
+    float:left;
+    font-size: .25rem;
+    color:red;
+    /*text-align: center;*/
+}
+.new-list li del{
+    display: block;
+    float:left;
+    margin-left:.1rem;
+    font-size: .25rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    position: absolute;
+    left:0;
+    right:0;
+    top:1rem;
+    /*left:0;*/
+    bottom:1rem;
+    margin:auto;
+    width:100%;
+    height:auto;
+    /*overflow: hidden;*/
+    /*z-index: 1;*/
+    /*overflow: hidden;*/
+}
+
+
+footer{
+    width:100%;
+    height:1rem;
+    background:#f73362; /*overflow: hidden;*/
+    position: fixed;
+    left:0;
+    bottom:0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

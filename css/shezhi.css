@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background:#f7f7f7;
+}
+
+/*@font-face {*/
+    /*font-family: 'iconfont';  !* project id 403499 *!*/
+    /*src: url('https://at.alicdn.com/t/font_403499_eecurpt14e31h5mi.eot');*/
+    /*src: url('https://at.alicdn.com/t/font_403499_eecurpt14e31h5mi.eot?#iefix') format('embedded-opentype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_eecurpt14e31h5mi.woff') format('woff'),*/
+    /*url('https://at.alicdn.com/t/font_403499_eecurpt14e31h5mi.ttf') format('truetype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_eecurpt14e31h5mi.svg#iconfont') format('svg');*/
+/*}*/
+
+@font-face {
+    font-family: 'iconfont';  /* project id 403499 */
+    src: url('https://at.alicdn.com/t/font_403499_piqnm1i6hlhgds4i.eot');
+    src: url('https://at.alicdn.com/t/font_403499_piqnm1i6hlhgds4i.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_403499_piqnm1i6hlhgds4i.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_403499_piqnm1i6hlhgds4i.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_403499_piqnm1i6hlhgds4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#b0b0b0;
+}
+
+header{
+    width:100%;
+    height:1rem;
+    background:#f73362;
+    width:100%;
+    height:1rem;
+    /*overflow: hidden;*/
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    line-height:1rem;
+    padding:0 .24rem;
+}
+header div:nth-child(1){
+    font-size: .35rem;
+    float:left;
+    color:#666;
+}
+header div:nth-child(1) i {
+    padding-right:.1rem;
+    color:#666;
+}
+header div .iconfont{
+    color:#000;
+}
+header div:nth-child(2){
+    font-size: .35rem;
+    float:right;
+}
+header div:nth-child(2) i {
+    color:#666;
+}
+
+.shezhi{
+    margin-top:.2rem;
+    width:100%;
+    height:auto;
+    padding:0 .24rem .2rem;
+    background: #fff;
+
+}
+
+.shezhi h3{
+    float:left;
+    font-size: .7rem;
+    line-height: 1.6rem;
+    margin-left:2.2rem;
+}
+.shezhi .right-jiantou{
+    font-size: .5rem;
+    float:right;
+    line-height: 1.5rem;
+}
+.shezhi:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.shezhi-box{
+    width:1.2rem;
+    height:1.2rem;
+    background:url("../images/touxiang.jpg");
+    border-radius: 50%;
+    background-size:cover;
+    float:left;
+}
+.shezhi-text{
+    margin-left:.2rem;
+    padding:.3rem 0;
+    width:auto;
+    height:1rem;
+    /*background: red;*/
+    float:left;
+}
+.shezhi-text p{
+    font-size: .35rem;
+}
+.shezhi-text span{
+    display: block;
+    font-size: .25rem;
+    color:#ccc;
+}
+.shezhi p.iconfont{
+    float:right;
+    font-size: .6rem;
+    line-height: 1rem;
+}
+.dress{
+    /*margin-top:.2rem;*/
+    padding:0 .24rem;
+    width:100%;
+    height:1rem;
+    line-height: 1rem;
+    /*background: red;*/
+    border-top:1px solid #ccc;
+    font-size: .35rem;
+    background: #fff;
+    margin-bottom: .2rem;
+}
+.dress span{
+    display: block;
+    float:right;
+    font-size: .5rem;
+}
+#dress-diqu{
+
+}
+
+
+section .dress-item{
+    margin-bottom:0;
+}
+section .xiaomi {
+    margin-top: .2rem;
+    margin-bottom: 0;
+}
+section .xiaomi h3{
+    float:left;
+    font-weight: normal;
+    font-size: .35rem;
+
+}
+section .xiaomi span{
+    display: block;
+    float:left;
+    margin-left:2rem;
+    font-size: .3rem;
+}
+section .xiaomi p{
+    /*display: block;*/
+    float:right;
+    font-size: .5rem;
+}
+section .about{
+    margin-bottom:0;
+
+}
+
+
+section{
+    position: absolute;
+    left:0;
+    right:0;
+    top:1rem;
+    /*left:0;*/
+    bottom:1rem;
+    margin:auto;
+    width:100%;
+    height:auto;
+    overflow: scroll;
+    /*padding:0 .24rem;*/
+
+}
+
+footer{
+    width:100%;
+    height:1rem;
+    background:#f73362;
+    position: fixed;
+    left:0;
+    bottom:0;
+    padding:.1rem 0;
+    line-height:.8rem;
+    color:#fff;
+    font-size: .35rem;
+    text-align: center;
+
+}

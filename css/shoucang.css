@@ -1,0 +1,283 @@
+header{
+    width:100%;
+    height:1rem;
+    background: goldenrod;
+    width:100%;
+    height:1rem;
+    /*overflow: hidden;*/
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    line-height:1rem;
+    padding:0 .24rem;
+}
+
+header .iconfont{
+    display: block;
+    float:left;
+    color:#fff;
+    line-height: 1rem;
+    font-size:.5rem;
+}
+.nav-left{
+    float:left;
+}
+
+.nav-right{
+    float:right;
+}
+header .nav-text{
+    float:left;
+    width:4rem;
+    height:100%;
+    line-height: .8rem;
+    /*background: pink;*/
+    margin-left:1.2rem;
+    overflow: hidden;
+    text-align: center;
+
+    /*padding:0 .4rem;*/
+}
+
+
+header .nav-text h3:nth-child(1){
+    border-bottom:3px solid yellow;
+}
+header .nav-text h3:hover{
+    border-bottom:3px solid yellow;
+}
+
+header .nav-text h3{
+
+    margin:.14rem .3rem 0;
+    padding:0 .2rem;
+    float:left;
+    font-size: .4rem;
+    color:#fff;
+    font-weight: normal;
+}
+
+/*头部结束*/
+
+.item{
+    width:100%;
+    height:.8rem;
+    background:#fff;
+}
+.item-left{
+    width:5rem;
+    height: 100%;
+    /*background: pink;*/
+    line-height: .8rem;
+    margin-left:1rem;
+    float:left;
+
+}
+
+
+.item-left h3{
+    float:left;
+    font-size: .3rem;
+    color:red;
+    font-weight: normal;
+}
+.item-left p{
+    float:right;
+    font-size:.3rem;
+}
+
+.item-right{
+    float:left;
+
+}
+.item-right p{
+    font-size: .3rem;
+    color:#ccc;
+    line-height: .8rem;
+    /*float:right;*/
+    margin-left:.5rem;
+
+}
+
+.itemday{
+    width:100%;
+    height:.7rem;
+    padding:0 .24rem;
+    font-size: .25rem;
+    line-height: .7rem;
+    color:#666;
+}
+
+.itemlist{
+    width:100%;
+    height:2rem;
+    background-color:#fff;
+
+}
+.itemlist-pic{
+    width:2rem;
+    height:2rem;
+    background: yellow;
+    float:left;
+    margin-right:.15rem;
+}
+.itemlist-pic img{
+    width: 100%;
+    height: 100%;
+}
+.itemlist-right{
+    padding-right:.24rem;
+    width:5.3rem;
+    height:1rem;
+    /*background: yellow;*/
+    float:left;
+
+}
+.itemlist-right h3{
+    font-size: .3rem;
+    float:left;
+    font-weight: normal;
+
+}
+.itemlistdown{
+    margin-top:.5rem;
+    width:100%;
+    height:.7rem;
+    /*background-color: #fff;*/
+    float:left;
+    line-height: .7rem;
+    
+    
+}
+
+.itemlistdown p{
+    font-size: .3rem;
+    float:left;
+}
+.itemlistdown span{
+    display: block;
+    padding: .0rem .4rem;
+    margin-top:.07rem;
+    color:red;
+    width:auto;
+    height:auto;
+    font-size: .3rem;
+    line-height:.5rem;
+    float:right;
+    border:1px solid red;
+    border-radius:.3rem;
+
+}
+
+/*收藏猜你喜欢*/
+.love{
+    width:100%;
+    height:auto;
+    padding:.4rem 0;
+}
+.love h3{
+    width:100%;
+    font-size: .35rem;
+    font-weight: normal;
+    margin:0 auto;
+    text-align: center;
+}
+.love h3 i{
+    color:red;
+}
+.lovelist{
+    width:100%;
+    height:auto;
+    /*background: red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lovelist li{
+    width:3.7rem;
+    height:auto;
+    background-color: #fff;
+    margin-bottom:.2rem;
+}
+.lovelist li img{
+    width:3.7rem;
+    height:3.6rem;
+    display: block;
+}
+.lovelist li h3{
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    width:3.7rem;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    /*white-space:nowrap;*/
+    font-size:.25rem;
+    padding:0 .24rem;
+
+    font-weight: normal;
+}
+.lovelist li p{
+    margin-top:.1rem;
+    color:red;
+    font-size: .3rem;
+    padding-left: .24rem;
+
+}
+
+.lovelist li p span{
+    text-decoration: line-through;
+    color:#666;
+}
+.bot{
+    width: 100%;
+    height:.5rem;
+    background-color:#ccc;
+    line-height: .5rem;
+    padding:0 .24rem;
+}
+.bot .botleft{
+    font-size:.25rem;
+    color:#666;
+    float:left;
+}
+.bot .iconfont{
+    float:right;
+
+}
+
+
+
+
+
+
+section{
+    position: absolute;
+    left:0;
+    right:0;
+    top:1rem;
+    bottom:0rem;
+    margin:auto;
+    width:100%;
+    height:auto;
+    overflow: scroll;
+}
+
+
+footer{
+    width:100%;
+    height:1rem;
+    background:#f73362;
+    position: fixed;
+    left:0;
+    bottom:0;
+    padding:.1rem 0;
+    line-height:.8rem;
+    color:#fff;
+    font-size: .35rem;
+    text-align: center;
+    border:none;
+
+}

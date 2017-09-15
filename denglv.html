@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/denglv.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="" class="iconfont">&#xe60b;</a>
+        <div class="zhuce">
+            手机快速注册
+        </div>
+
+    </div>
+
+    <div class="phone">
+        <a href="">手机号码</a>
+        <input type="tel" placeholder="请输入手机号码">
+    </div>
+    <div class="phone">
+        <a href="">手机验证码</a>
+        <input type="tel" placeholder="请输入验证码" class="ma">
+        <!--<input type="button" class="leater" value="获取验证码">-->
+        <button class="leater">获取验证码</button>
+    </div>
+    <div class="phone">
+        <a href="">设置密码</a>
+        <input type="tel" placeholder="6到20位数字+字母或者符号组成">
+    </div>
+
+    <div class="footer">
+        <span>同意</span><a href="">《爱尚购会员章程》</a><span>和</span><a href="">《支付宝协议》</a>
+    </div>
+
+    <input type="submit" value="提交注册" class="tijiao">
+
+</body>
+<script>
+
+var btn=document.querySelector(".phone .leater")
+//var that=""
+    var num=10;
+    btn.onclick=function(){
+        this.disabled=true;
+        that=this;
+        var timer=setInterval(send,1000);
+        function send(){
+            num--
+            if(num>=0){
+                that.innerHTML="还剩下"+num+"秒";
+            }else{
+                that.innerHTML="重新发送";
+                that.disabled=false;
+                clearInterval(timer)
+                num=10;
+            }
+        }
+    }
+
+
+</script>
+
+</html>

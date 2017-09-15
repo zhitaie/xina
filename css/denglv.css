@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 403499 */
+    src: url('https://at.alicdn.com/t/font_403499_u9fht8qtml323xr.eot');
+    src: url('https://at.alicdn.com/t/font_403499_u9fht8qtml323xr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_403499_u9fht8qtml323xr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_403499_u9fht8qtml323xr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_403499_u9fht8qtml323xr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#b0b0b0;
+}
+
+body{
+    background:#F2F2F2;
+}
+.header{
+    width:100%;
+    height:.88rem;
+    background:#fff;
+    padding:0 .24rem;
+    border-bottom:.01rem solid #ccc;
+}
+.header a{
+    width:1.06rem;
+    /*height:1rem;*/
+    display: block;
+    font-size:.4rem;
+    line-height:.88rem;
+    color:#000;
+    float:left;
+    font-weight:100;
+}
+.zhuce{
+    width:4.5rem;
+    height:100%;
+    /*background:red;*/
+    float:left;
+    font-size: .35rem;
+    line-height: .88rem;
+    text-align: center;
+    font-weight:100;
+}
+.phone{
+    width:100%;
+    height:.88rem;
+    background:#fff;
+    padding:0 .24rem;
+    font-size: .3rem;
+    line-height: .88rem;
+    margin-bottom:.3rem;
+}
+.phone a{
+    display: block;
+    float:left;
+    width:2rem;;
+    height:100%;
+    color:#222222;
+}
+input{
+    outline: none;
+}
+.phone input{
+    /*margin-left:.3rem;*/
+    float:right;
+    display: block;
+    width:5rem;
+    height:100%;
+    background:#fff ;
+    border:none;
+}
+input::-webkit-calendar-picker-indicator{
+    color:#CACACA;
+}
+.phone input.shoujima{
+    width:4rem;
+    margin-right:1.2rem;
+    float:right;
+    border-right:1px solid #ccc;
+}
+.phone input.ma{
+    width:3rem;
+    /*height:*/
+    float:left;
+    border-right:1px solid #ccc;
+}
+.phone .leater{
+    width:2rem;
+    height:100%;
+    float:left;
+    background:#fff;
+    border:none;
+}
+
+
+.footer{
+    width:100%;
+    height:.85rem;
+    /*background: red;*/
+    padding-left:.24rem;
+}
+.footer{
+    font-size: .24rem;
+    line-height: .8rem;
+}
+.footer span{
+    color:#999;
+}
+.footer a{
+    color:#333;
+}
+.tijiao{
+    background:#FF6600;
+    display: block;
+    border: none;
+    width:6.94rem;
+    height:.8rem;
+    margin: 0 auto;
+    font-size: .4rem;
+    border-radius: .2rem;
+    color:#fff;
+
+}
